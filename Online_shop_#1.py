@@ -45,3 +45,5 @@ print('Сумма заказов товаров по каждому городу
 cities_order['Сумма заказов'] = cities_order[['Книга', 'Ноутбук', 'Телефон']].sum(axis=1)
 cities_order['Категория'] = cities_order['Сумма заказов'].apply(categorize)
 print("Таблица с Категорией заказов: \n", cities_order)
+
+cities_order.to_csv("Разбивка_Города_Orders", index=False)
