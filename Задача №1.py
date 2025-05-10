@@ -30,6 +30,6 @@
     Казань, Ноутбук, Глеб, 60000
     ...
 """""""""""
-import Pandas as pd
+import pandas as pd
 
 
